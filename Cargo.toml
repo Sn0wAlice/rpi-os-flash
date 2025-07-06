@@ -1,0 +1,12 @@
+[package]
+name = "rpi-os-flash"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+inquire = "0.6"
+indicatif = "0.17"
+serde = { version = "1.0", features = ["derive"] }
+reqwest = { version = "0.12", features = ["blocking", "json"] }
+sysinfo = "0.30"
+serde_json = "1.0.140"
